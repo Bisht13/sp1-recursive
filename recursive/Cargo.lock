@@ -1991,8 +1991,9 @@ dependencies = [
 
 [[package]]
 name = "gnark-bn254-verifier"
-version = "0.1.0"
-source = "git+https://github.com/Bisht13/gnark-bn254-verifier?branch=main#d8a78cade9951d0ea8e4434016ff9eb25c397eb3"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6d50fc0e1bd9817b61b5acb84911f6f757d00bfecb0cf4fb1a9a8771f204ce2"
 dependencies = [
  "anyhow",
  "ark-bn254",
