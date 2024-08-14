@@ -5,7 +5,5 @@ edition = "2021"
 
 [dependencies]
 sp1-zkvm = "1.1.0"
-gnark-bn254-verifier = "1.0.0"
-ark-bn254 = "0.4.0"
-ark-ff = "0.4.2"
+gnark-bn254-verifier = "1.0.2"
 num-bigint = "0.4.6"

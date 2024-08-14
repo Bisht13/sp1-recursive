@@ -854,12 +854,13 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.1.10"
+version = "1.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e9e8aabfac534be767c909e0690571677d49f41bd8465ae876fe043d52ba5292"
+checksum = "5fb8dd288a69fc53a1996d7ecfbf4a20d59065bff137ce7e56bbd620de191189"
 dependencies = [
  "jobserver",
  "libc",
+ "shlex",
 ]
 
 [[package]]
@@ -1991,9 +1992,9 @@ dependencies = [
 
 [[package]]
 name = "gnark-bn254-verifier"
-version = "1.0.0"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b6d50fc0e1bd9817b61b5acb84911f6f757d00bfecb0cf4fb1a9a8771f204ce2"
+checksum = "fcf2d2b077a432345730766a8c07e4131c3f63fd38b727e4e79d269800125ef1"
 dependencies = [
  "anyhow",
  "ark-bn254",
@@ -3838,8 +3839,6 @@ dependencies = [
 name = "recursive-program"
 version = "0.1.0"
 dependencies = [
- "ark-bn254",
- "ark-ff 0.4.2",
  "gnark-bn254-verifier",
  "num-bigint 0.4.6",
  "sp1-zkvm",

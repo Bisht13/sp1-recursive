@@ -1,8 +1,7 @@
 #![no_main]
 sp1_zkvm::entrypoint!(main);
 
-use ark_bn254::Fr;
-use gnark_bn254_verifier::{verify, ProvingSystem};
+use gnark_bn254_verifier::{verify, ProvingSystem, Fr};
 use num_bigint::BigUint;
 
 pub fn main() {
