@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 sp1-zkvm = "1.1.0"
-plonk-verifier = { git = "https://github.com/bisht13/plonk-verifier", branch = "main" }
+gnark-bn254-verifier = { git = "https://github.com/Bisht13/gnark-bn254-verifier", branch = "main" }
 ark-bn254 = "0.4.0"
 ark-ff = "0.4.2"
 num-bigint = "0.4.6"
