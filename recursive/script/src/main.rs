@@ -5,14 +5,14 @@ use dotenv::dotenv;
 use num_bigint::BigUint;
 use num_traits::Num;
 use sp1_sdk::{
-    proto::network::ProofMode, utils, NetworkProver, Prover, SP1ProofWithPublicValues, SP1Stdin,
+    proto::network::ProofMode, utils, NetworkProver, Prover, ProverClient,
+    SP1ProofWithPublicValues, SP1Stdin,
 };
 
 /// The ELF (executable and linkable format) file for the Succinct RISC-V zkVM.
 pub const ELF: &[u8] = include_bytes!("../../elf/riscv32im-succinct-zkvm-elf");
 
-#[tokio::main]
-async fn main() {
+fn main() {
     dotenv().ok();
 
     // Setup logging.
@@ -51,14 +51,20 @@ async fn main() {
     stdin.write(&committed_values_digest);
 
     // Generate the proof for the given program and input.
-    let client = NetworkProver::new_from_key(&std::env::var("SP1_PRIVATE_KEY").unwrap());
-    let (_, vk) = client.setup(ELF);
-    let proof = client
-        .prove(ELF, stdin, ProofMode::Core, None)
-        .await
-        .unwrap();
+    // let client = NetworkProver::new_from_key(&std::env::var("SP1_PRIVATE_KEY").unwrap());
+    // let (_, vk) = client.setup(ELF);
+    // let proof = client
+    //     .prove(ELF, stdin, ProofMode::Core, None)
+    //     .unwrap();
 
-    // Verify proof and public values
+    let client = ProverClient::new();
+    let (pk, vk) = client.setup(ELF);
+    let proof = client.prove(&pk, stdin).run().expect("proving failed");
+
+    // Verify proof.
+    client.verify(&proof, &vk).expect("verification failed");
+
+    // Verify proof.
     client.verify(&proof, &vk).expect("verification failed");
 
     println!("Successfully verified proof for the program!")

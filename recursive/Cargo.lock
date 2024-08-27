@@ -804,6 +804,20 @@ name = "bytemuck"
 version = "1.16.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "102087e286b4677862ea56cf8fc58bb2cdfa8725c40ffb80fe3a008eb7f2fc83"
+dependencies = [
+ "bytemuck_derive",
+]
+
+[[package]]
+name = "bytemuck_derive"
+version = "1.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0cc8b54b395f2fcfbb3d90c47b01c7f444d94d05bdeb775811dec868ac3bbc26"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.74",
+]
 
 [[package]]
 name = "byteorder"
@@ -1993,8 +2007,6 @@ dependencies = [
 [[package]]
 name = "gnark-bn254-verifier"
 version = "1.0.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fcf2d2b077a432345730766a8c07e4131c3f63fd38b727e4e79d269800125ef1"
 dependencies = [
  "anyhow",
  "ark-bn254",
@@ -2008,6 +2020,7 @@ dependencies = [
  "num-traits",
  "rand",
  "sha2",
+ "substrate-bn",
 ]
 
 [[package]]
@@ -3842,6 +3855,7 @@ dependencies = [
  "gnark-bn254-verifier",
  "num-bigint 0.4.6",
  "sp1-zkvm",
+ "substrate-bn",
 ]
 
 [[package]]
@@ -3853,12 +3867,10 @@ dependencies = [
  "hex",
  "num-bigint 0.4.6",
  "num-traits",
- "reqwest 0.12.5",
  "serde",
  "serde_json",
  "sp1-helper",
  "sp1-sdk",
- "tokio",
 ]
 
 [[package]]
@@ -4656,11 +4668,12 @@ dependencies = [
 
 [[package]]
 name = "sp1-build"
-version = "1.1.1"
-source = "git+https://github.com/succinctlabs/sp1.git?branch=main#57867346f086a0c15e0503d693d897bda6bf06b0"
+version = "1.2.0-rc1"
+source = "git+https://github.com/succinctlabs/sp1?branch=dev#c1ff739c2ac79851da1c7e8abc4e3eb84ddadf6c"
 dependencies = [
  "anyhow",
  "cargo_metadata",
+ "chrono",
  "clap",
  "dirs",
 ]
@@ -4741,24 +4754,23 @@ dependencies = [
 
 [[package]]
 name = "sp1-helper"
-version = "1.1.1"
-source = "git+https://github.com/succinctlabs/sp1.git?branch=main#57867346f086a0c15e0503d693d897bda6bf06b0"
+version = "1.2.0-rc1"
+source = "git+https://github.com/succinctlabs/sp1?branch=dev#c1ff739c2ac79851da1c7e8abc4e3eb84ddadf6c"
 dependencies = [
- "cargo_metadata",
- "chrono",
  "sp1-build",
 ]
 
 [[package]]
 name = "sp1-lib"
-version = "1.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "839009d6aab5876710e2bc35170d1f328bc70f38992f0037b938623dadfcc61f"
+version = "1.2.0-rc1"
+source = "git+https://github.com/succinctlabs/sp1?branch=dev#394eec87694400c35496d353ef2abde6223d3b06"
 dependencies = [
  "anyhow",
  "bincode",
  "cfg-if",
+ "hex",
  "serde",
+ "snowbridge-amcl",
 ]
 
 [[package]]
@@ -5012,9 +5024,8 @@ dependencies = [
 
 [[package]]
 name = "sp1-zkvm"
-version = "1.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1b0d9d1829e7c86862f00d40106111b63ef38ac73e107c40c8d1e88b8f2328a5"
+version = "1.2.0-rc1"
+source = "git+https://github.com/succinctlabs/sp1?branch=dev#c1ff739c2ac79851da1c7e8abc4e3eb84ddadf6c"
 dependencies = [
  "bincode",
  "cfg-if",
@@ -5095,6 +5106,20 @@ dependencies = [
  "quote",
  "rustversion",
  "syn 2.0.74",
+]
+
+[[package]]
+name = "substrate-bn"
+version = "0.6.0"
+dependencies = [
+ "bytemuck",
+ "byteorder",
+ "cfg-if",
+ "crunchy",
+ "lazy_static",
+ "rand",
+ "rustc-hex",
+ "sp1-lib",
 ]
 
 [[package]]
