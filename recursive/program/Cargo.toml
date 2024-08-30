@@ -4,7 +4,7 @@ name = "recursive-program"
 edition = "2021"
 
 [dependencies]
-sp1-zkvm = { git = "https://github.com/succinctlabs/sp1", branch = "dev"}
+sp1-zkvm = "1.2.0-rc1"
 # gnark-bn254-verifier = "1.0.2"
 gnark-bn254-verifier = { path = "../../../bhargav-gnark"}
 substrate-bn = {path = "../../../sp1-bn"}

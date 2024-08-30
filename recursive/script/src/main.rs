@@ -40,6 +40,11 @@ fn main() {
     let vkey_hash = BigUint::from_str_radix(&public_inputs[0], 10)
         .unwrap()
         .to_bytes_be();
+    let committed_values_digest = BigUint::from_str_radix(&public_inputs[1], 10).unwrap();
+    println!(
+        "[INPUT] commited_values_digest: {:?}",
+        committed_values_digest
+    );
     let committed_values_digest = BigUint::from_str_radix(&public_inputs[1], 10)
         .unwrap()
         .to_bytes_be();
@@ -60,9 +65,6 @@ fn main() {
     let client = ProverClient::new();
     let (pk, vk) = client.setup(ELF);
     let proof = client.prove(&pk, stdin).run().expect("proving failed");
-
-    // Verify proof.
-    client.verify(&proof, &vk).expect("verification failed");
 
     // Verify proof.
     client.verify(&proof, &vk).expect("verification failed");

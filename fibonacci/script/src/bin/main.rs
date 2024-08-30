@@ -51,7 +51,7 @@ async fn main() {
 
     // Setup the prover client.
     let local_client = ProverClient::new();
-    let client = NetworkProver::new_from_key(&std::env::var("SP1_PRIVATE_KEY").unwrap());
+    // let client = NetworkProver::new_from_key(&std::env::var("SP1_PRIVATE_KEY").unwrap());
 
     // Setup the inputs.
     let mut stdin = SP1Stdin::new();
@@ -80,20 +80,23 @@ async fn main() {
         println!("Number of cycles: {}", report.total_instruction_count());
     } else {
         // Setup the program for proving.
-        let (_, vk) = client.setup(FIBONACCI_ELF);
+        let (pk, vk) = local_client.setup(FIBONACCI_ELF);
 
         // Generate the proof
-        let proof = client
-            .prove(FIBONACCI_ELF, stdin, ProofMode::Plonk, None)
-            .await
-            .unwrap();
+        let proof = local_client
+            .prove(&pk, stdin)
+            .plonk()
+            .run()
+            .expect("Proving failed");
 
         // Save the proof to a file as binary.
         let proof_file = "proof.bin";
         proof.save(proof_file).unwrap();
 
         // Verify the proof.
-        client.verify(&proof, &vk).expect("failed to verify proof");
+        local_client
+            .verify(&proof, &vk)
+            .expect("failed to verify proof");
         println!("Successfully verified proof!");
     }
 }
