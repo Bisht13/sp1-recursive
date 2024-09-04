@@ -1,0 +1,723 @@
+public_inputs: ["265796360540158283986878789874451345868326954697242378057655310744343305894", "6835433473072582537735779005252378178401920886001391083506222100041177144720"]
+[INPUT] commited_values_digest: 6835433473072582537735779005252378178401920886001391083506222100041177144720
+committed_values_digest: [15, 28, 183, 222, 207, 49, 228, 156, 121, 52, 195, 116, 11, 236, 93, 243, 234, 210, 123, 201, 71, 175, 115, 151, 130, 147, 13, 246, 227, 126, 157, 144]
+[2m2024-09-04T00:48:55.216158Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip CPU has 15 byte interactions
+[2m2024-09-04T00:48:55.216406Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m217µs [3mtime.idle[0m[2m=[0m1.26µs
+[2m2024-09-04T00:48:55.216426Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m240µs [3mtime.idle[0m[2m=[0m520ns
+[2m2024-09-04T00:48:55.216528Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Program has 0 byte interactions
+[2m2024-09-04T00:48:55.216541Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m3.05µs [3mtime.idle[0m[2m=[0m351ns
+[2m2024-09-04T00:48:55.216546Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m8.54µs [3mtime.idle[0m[2m=[0m470ns
+[2m2024-09-04T00:48:55.216618Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip ShaExtend has 60 byte interactions
+[2m2024-09-04T00:48:55.216665Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m38.2µs [3mtime.idle[0m[2m=[0m339ns
+[2m2024-09-04T00:48:55.216674Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m48.0µs [3mtime.idle[0m[2m=[0m370ns
+[2m2024-09-04T00:48:55.216829Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip ShaCompress has 112 byte interactions
+[2m2024-09-04T00:48:55.216998Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m162µs [3mtime.idle[0m[2m=[0m419ns
+[2m2024-09-04T00:48:55.217009Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m173µs [3mtime.idle[0m[2m=[0m351ns
+[2m2024-09-04T00:48:55.221270Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip EdAddAssign has 816 byte interactions
+[2m2024-09-04T00:48:55.225117Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m3.83ms [3mtime.idle[0m[2m=[0m540ns
+[2m2024-09-04T00:48:55.225133Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m3.85ms [3mtime.idle[0m[2m=[0m550ns
+[2m2024-09-04T00:48:55.230541Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip EdDecompress has 709 byte interactions
+[2m2024-09-04T00:48:55.231686Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.13ms [3mtime.idle[0m[2m=[0m510ns
+[2m2024-09-04T00:48:55.231699Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.14ms [3mtime.idle[0m[2m=[0m590ns
+[2m2024-09-04T00:48:55.234856Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Secp256k1Decompress has 521 byte interactions
+[2m2024-09-04T00:48:55.235738Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m869µs [3mtime.idle[0m[2m=[0m562ns
+[2m2024-09-04T00:48:55.235749Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m882µs [3mtime.idle[0m[2m=[0m520ns
+[2m2024-09-04T00:48:55.239394Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Secp256k1AddAssign has 910 byte interactions
+[2m2024-09-04T00:48:55.240708Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.30ms [3mtime.idle[0m[2m=[0m490ns
+[2m2024-09-04T00:48:55.240720Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.32ms [3mtime.idle[0m[2m=[0m490ns
+[2m2024-09-04T00:48:55.245729Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Secp256k1DoubleAssign has 1066 byte interactions
+[2m2024-09-04T00:48:55.248190Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.45ms [3mtime.idle[0m[2m=[0m530ns
+[2m2024-09-04T00:48:55.248204Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.46ms [3mtime.idle[0m[2m=[0m610ns
+[2m2024-09-04T00:48:55.252229Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip KeccakPermute has 200 byte interactions
+[2m2024-09-04T00:48:55.254408Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.17ms [3mtime.idle[0m[2m=[0m400ns
+[2m2024-09-04T00:48:55.254423Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.18ms [3mtime.idle[0m[2m=[0m561ns
+[2m2024-09-04T00:48:55.259113Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bn254AddAssign has 910 byte interactions
+[2m2024-09-04T00:48:55.260407Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.28ms [3mtime.idle[0m[2m=[0m541ns
+[2m2024-09-04T00:48:55.260419Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.29ms [3mtime.idle[0m[2m=[0m471ns
+[2m2024-09-04T00:48:55.265414Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bn254DoubleAssign has 1066 byte interactions
+[2m2024-09-04T00:48:55.267612Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.19ms [3mtime.idle[0m[2m=[0m580ns
+[2m2024-09-04T00:48:55.267626Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.20ms [3mtime.idle[0m[2m=[0m591ns
+[2m2024-09-04T00:48:55.275062Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bls12381AddAssign has 1374 byte interactions
+[2m2024-09-04T00:48:55.279291Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.22ms [3mtime.idle[0m[2m=[0m401ns
+[2m2024-09-04T00:48:55.279304Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.23ms [3mtime.idle[0m[2m=[0m660ns
+[2m2024-09-04T00:48:55.290361Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bls12381DoubleAssign has 1610 byte interactions
+[2m2024-09-04T00:48:55.295505Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m5.13ms [3mtime.idle[0m[2m=[0m490ns
+[2m2024-09-04T00:48:55.295518Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.15ms [3mtime.idle[0m[2m=[0m570ns
+[2m2024-09-04T00:48:55.300181Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Uint256MulMod has 145 byte interactions
+[2m2024-09-04T00:48:55.300446Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m252µs [3mtime.idle[0m[2m=[0m560ns
+[2m2024-09-04T00:48:55.300457Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m264µs [3mtime.idle[0m[2m=[0m580ns
+[2m2024-09-04T00:48:55.302045Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bls12381FpOpAssign has 190 byte interactions
+[2m2024-09-04T00:48:55.302663Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m608µs [3mtime.idle[0m[2m=[0m420ns
+[2m2024-09-04T00:48:55.302672Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m618µs [3mtime.idle[0m[2m=[0m409ns
+[2m2024-09-04T00:48:55.306060Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bls12831Fp2AddSubAssign has 380 byte interactions
+[2m2024-09-04T00:48:55.307287Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.22ms [3mtime.idle[0m[2m=[0m380ns
+[2m2024-09-04T00:48:55.307297Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.23ms [3mtime.idle[0m[2m=[0m450ns
+[2m2024-09-04T00:48:55.313158Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bls12831Fp2MulAssign has 948 byte interactions
+[2m2024-09-04T00:48:55.315228Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.06ms [3mtime.idle[0m[2m=[0m420ns
+[2m2024-09-04T00:48:55.315238Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.07ms [3mtime.idle[0m[2m=[0m480ns
+[2m2024-09-04T00:48:55.318143Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bn254FpOpAssign has 126 byte interactions
+[2m2024-09-04T00:48:55.318462Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m306µs [3mtime.idle[0m[2m=[0m430ns
+[2m2024-09-04T00:48:55.318472Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m317µs [3mtime.idle[0m[2m=[0m629ns
+[2m2024-09-04T00:48:55.320186Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bn254Fp2AddSubAssign has 252 byte interactions
+[2m2024-09-04T00:48:55.320798Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m600µs [3mtime.idle[0m[2m=[0m471ns
+[2m2024-09-04T00:48:55.320807Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m611µs [3mtime.idle[0m[2m=[0m471ns
+[2m2024-09-04T00:48:55.323612Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bn254Fp2MulAssign has 628 byte interactions
+[2m2024-09-04T00:48:55.324655Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.03ms [3mtime.idle[0m[2m=[0m501ns
+[2m2024-09-04T00:48:55.324667Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.05ms [3mtime.idle[0m[2m=[0m351ns
+[2m2024-09-04T00:48:55.329500Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bls12381Decompress has 788 byte interactions
+[2m2024-09-04T00:48:55.331270Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.76ms [3mtime.idle[0m[2m=[0m491ns
+[2m2024-09-04T00:48:55.331282Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.77ms [3mtime.idle[0m[2m=[0m610ns
+[2m2024-09-04T00:48:55.333262Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip DivRem has 11 byte interactions
+[2m2024-09-04T00:48:55.333304Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m30.3µs [3mtime.idle[0m[2m=[0m470ns
+[2m2024-09-04T00:48:55.333312Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m39.0µs [3mtime.idle[0m[2m=[0m520ns
+[2m2024-09-04T00:48:55.333344Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip AddSub has 6 byte interactions
+[2m2024-09-04T00:48:55.333357Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m6.73µs [3mtime.idle[0m[2m=[0m260ns
+[2m2024-09-04T00:48:55.333360Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m10.7µs [3mtime.idle[0m[2m=[0m330ns
+[2m2024-09-04T00:48:55.333374Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Bitwise has 4 byte interactions
+[2m2024-09-04T00:48:55.333382Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.26µs [3mtime.idle[0m[2m=[0m240ns
+[2m2024-09-04T00:48:55.333385Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m7.88µs [3mtime.idle[0m[2m=[0m240ns
+[2m2024-09-04T00:48:55.333408Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Mul has 14 byte interactions
+[2m2024-09-04T00:48:55.333428Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m14.2µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.333432Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m18.1µs [3mtime.idle[0m[2m=[0m270ns
+[2m2024-09-04T00:48:55.333469Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip ShiftRight has 25 byte interactions
+[2m2024-09-04T00:48:55.333492Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m16.7µs [3mtime.idle[0m[2m=[0m270ns
+[2m2024-09-04T00:48:55.333495Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m20.8µs [3mtime.idle[0m[2m=[0m310ns
+[2m2024-09-04T00:48:55.333522Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip ShiftLeft has 4 byte interactions
+[2m2024-09-04T00:48:55.333542Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m12.7µs [3mtime.idle[0m[2m=[0m280ns
+[2m2024-09-04T00:48:55.333545Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m16.8µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.333568Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Lt has 3 byte interactions
+[2m2024-09-04T00:48:55.333583Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m9.58µs [3mtime.idle[0m[2m=[0m280ns
+[2m2024-09-04T00:48:55.333587Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m13.5µs [3mtime.idle[0m[2m=[0m260ns
+[2m2024-09-04T00:48:55.333674Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip MemoryInit has 0 byte interactions
+[2m2024-09-04T00:48:55.333753Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m72.1µs [3mtime.idle[0m[2m=[0m310ns
+[2m2024-09-04T00:48:55.333760Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m80.0µs [3mtime.idle[0m[2m=[0m299ns
+[2m2024-09-04T00:48:55.333895Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip MemoryFinalize has 0 byte interactions
+[2m2024-09-04T00:48:55.333970Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m68.0µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.333977Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m75.5µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.334042Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip MemoryProgram has 0 byte interactions
+[2m2024-09-04T00:48:55.334060Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m11.4µs [3mtime.idle[0m[2m=[0m270ns
+[2m2024-09-04T00:48:55.334063Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m15.3µs [3mtime.idle[0m[2m=[0m310ns
+[2m2024-09-04T00:48:55.334118Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: chip Byte has 144 byte interactions
+[2m2024-09-04T00:48:55.334133Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m9.75µs [3mtime.idle[0m[2m=[0m260ns
+[2m2024-09-04T00:48:55.334137Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m13.7µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.334141Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: close [3mtime.busy[0m[2m=[0m118ms [3mtime.idle[0m[2m=[0m720ns
+[2m2024-09-04T00:48:55.334152Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip Program has 0 byte interactions
+[2m2024-09-04T00:48:55.334157Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.30µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.334161Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m6.69µs [3mtime.idle[0m[2m=[0m280ns
+[2m2024-09-04T00:48:55.334240Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip CPU has 0 byte interactions
+[2m2024-09-04T00:48:55.334302Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m55.3µs [3mtime.idle[0m[2m=[0m380ns
+[2m2024-09-04T00:48:55.334310Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m63.8µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.334354Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip MemoryGlobalChip has 0 byte interactions
+[2m2024-09-04T00:48:55.334365Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.87µs [3mtime.idle[0m[2m=[0m291ns
+[2m2024-09-04T00:48:55.334368Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m8.71µs [3mtime.idle[0m[2m=[0m360ns
+[2m2024-09-04T00:48:55.334677Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip Poseidon2Wide 3 has 0 byte interactions
+[2m2024-09-04T00:48:55.334921Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m236µs [3mtime.idle[0m[2m=[0m350ns
+[2m2024-09-04T00:48:55.334931Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m246µs [3mtime.idle[0m[2m=[0m380ns
+[2m2024-09-04T00:48:55.335185Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip FriFold has 0 byte interactions
+[2m2024-09-04T00:48:55.335217Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m24.4µs [3mtime.idle[0m[2m=[0m300ns
+[2m2024-09-04T00:48:55.335223Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m31.4µs [3mtime.idle[0m[2m=[0m430ns
+[2m2024-09-04T00:48:55.335248Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip RangeCheck has 0 byte interactions
+[2m2024-09-04T00:48:55.335254Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.17µs [3mtime.idle[0m[2m=[0m260ns
+[2m2024-09-04T00:48:55.335257Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.76µs [3mtime.idle[0m[2m=[0m270ns
+[2m2024-09-04T00:48:55.335278Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip ExpReverseBitsLen has 0 byte interactions
+[2m2024-09-04T00:48:55.335292Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m11.1µs [3mtime.idle[0m[2m=[0m260ns
+[2m2024-09-04T00:48:55.335298Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m17.6µs [3mtime.idle[0m[2m=[0m230ns
+[2m2024-09-04T00:48:55.335313Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip Program has 0 byte interactions
+[2m2024-09-04T00:48:55.335319Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.66µs [3mtime.idle[0m[2m=[0m259ns
+[2m2024-09-04T00:48:55.335322Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.11µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.335387Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip CPU has 0 byte interactions
+[2m2024-09-04T00:48:55.335447Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m52.3µs [3mtime.idle[0m[2m=[0m380ns
+[2m2024-09-04T00:48:55.335454Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m60.6µs [3mtime.idle[0m[2m=[0m290ns
+[2m2024-09-04T00:48:55.335492Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip MemoryGlobalChip has 0 byte interactions
+[2m2024-09-04T00:48:55.335502Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.67µs [3mtime.idle[0m[2m=[0m280ns
+[2m2024-09-04T00:48:55.335505Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m8.39µs [3mtime.idle[0m[2m=[0m260ns
+[2m2024-09-04T00:48:55.335948Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip Multi has 0 byte interactions
+[2m2024-09-04T00:48:55.336240Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m282µs [3mtime.idle[0m[2m=[0m460ns
+[2m2024-09-04T00:48:55.336251Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m293µs [3mtime.idle[0m[2m=[0m520ns
+[2m2024-09-04T00:48:55.336512Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip RangeCheck has 0 byte interactions
+[2m2024-09-04T00:48:55.336521Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.08µs [3mtime.idle[0m[2m=[0m260ns
+[2m2024-09-04T00:48:55.336525Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.06µs [3mtime.idle[0m[2m=[0m320ns
+[2m2024-09-04T00:48:55.336542Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip ExpReverseBitsLen has 0 byte interactions
+[2m2024-09-04T00:48:55.336557Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m12.1µs [3mtime.idle[0m[2m=[0m259ns
+[2m2024-09-04T00:48:55.336561Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m16.4µs [3mtime.idle[0m[2m=[0m241ns
+[2m2024-09-04T00:48:55.336707Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip Program has 0 byte interactions
+[2m2024-09-04T00:48:55.336716Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.65µs [3mtime.idle[0m[2m=[0m279ns
+[2m2024-09-04T00:48:55.336720Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.39µs [3mtime.idle[0m[2m=[0m300ns
+[2m2024-09-04T00:48:55.336776Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip CPU has 0 byte interactions
+[2m2024-09-04T00:48:55.336837Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m54.1µs [3mtime.idle[0m[2m=[0m330ns
+[2m2024-09-04T00:48:55.336846Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m63.3µs [3mtime.idle[0m[2m=[0m280ns
+[2m2024-09-04T00:48:55.336884Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip MemoryGlobalChip has 0 byte interactions
+[2m2024-09-04T00:48:55.336895Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.72µs [3mtime.idle[0m[2m=[0m280ns
+[2m2024-09-04T00:48:55.336898Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m8.46µs [3mtime.idle[0m[2m=[0m300ns
+[2m2024-09-04T00:48:55.337260Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip Multi has 0 byte interactions
+[2m2024-09-04T00:48:55.337557Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m288µs [3mtime.idle[0m[2m=[0m390ns
+[2m2024-09-04T00:48:55.337569Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m300µs [3mtime.idle[0m[2m=[0m400ns
+[2m2024-09-04T00:48:55.337825Z[0m [34mDEBUG[0m [1minitialize prover[0m: chip RangeCheck has 0 byte interactions
+[2m2024-09-04T00:48:55.337835Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.18µs [3mtime.idle[0m[2m=[0m250ns
+[2m2024-09-04T00:48:55.337838Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.29µs [3mtime.idle[0m[2m=[0m310ns
+[2m2024-09-04T00:48:55.343316Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: CPU
+[2m2024-09-04T00:48:55.363297Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Program
+[2m2024-09-04T00:48:55.364688Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: ShaExtend
+[2m2024-09-04T00:48:55.379147Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: ShaCompress
+[2m2024-09-04T00:48:55.413774Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: EdAddAssign
+[2m2024-09-04T00:48:55.605982Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: EdDecompress
+[2m2024-09-04T00:48:55.746385Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Secp256k1Decompress
+[2m2024-09-04T00:48:55.854368Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Secp256k1AddAssign
+[2m2024-09-04T00:48:56.033224Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Secp256k1DoubleAssign
+[2m2024-09-04T00:48:56.239471Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: KeccakPermute
+[2m2024-09-04T00:48:56.482998Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bn254AddAssign
+[2m2024-09-04T00:48:56.665305Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bn254DoubleAssign
+[2m2024-09-04T00:48:56.873107Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bls12381AddAssign
+[2m2024-09-04T00:48:57.171074Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bls12381DoubleAssign
+[2m2024-09-04T00:48:57.508335Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Uint256MulMod
+[2m2024-09-04T00:48:57.548014Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bls12381FpOpAssign
+[2m2024-09-04T00:48:57.594634Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bls12831Fp2AddSubAssign
+[2m2024-09-04T00:48:57.684422Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bls12831Fp2MulAssign
+[2m2024-09-04T00:48:57.894774Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bn254FpOpAssign
+[2m2024-09-04T00:48:57.924669Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bn254Fp2AddSubAssign
+[2m2024-09-04T00:48:57.981664Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bn254Fp2MulAssign
+[2m2024-09-04T00:48:58.109095Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bls12381Decompress
+[2m2024-09-04T00:48:58.302592Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: DivRem
+[2m2024-09-04T00:48:58.310100Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: AddSub
+[2m2024-09-04T00:48:58.312693Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Bitwise
+[2m2024-09-04T00:48:58.314684Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Mul
+[2m2024-09-04T00:48:58.318529Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: ShiftRight
+[2m2024-09-04T00:48:58.325310Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: ShiftLeft
+[2m2024-09-04T00:48:58.328582Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Lt
+[2m2024-09-04T00:48:58.331454Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: MemoryInit
+[2m2024-09-04T00:48:58.343159Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: MemoryFinalize
+[2m2024-09-04T00:48:58.354619Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: MemoryProgram
+[2m2024-09-04T00:48:58.355941Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: verifying constraints for chip: Byte
+[2m2024-09-04T00:48:58.783375Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: recursion program size: 2046943
+[2m2024-09-04T00:48:58.902186Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit recursion program[0m: close [3mtime.busy[0m[2m=[0m3.56s [3mtime.idle[0m[2m=[0m13.8µs
+[2m2024-09-04T00:48:58.921230Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: verifying constraints for chip: Program
+[2m2024-09-04T00:48:58.922611Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: verifying constraints for chip: CPU
+[2m2024-09-04T00:48:58.931205Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-09-04T00:48:58.932915Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-09-04T00:48:58.965549Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: verifying constraints for chip: FriFold
+[2m2024-09-04T00:48:58.972980Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: verifying constraints for chip: RangeCheck
+[2m2024-09-04T00:48:58.973787Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: verifying constraints for chip: ExpReverseBitsLen
+[2m2024-09-04T00:48:58.985861Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: recursion program size: 72264
+[2m2024-09-04T00:48:58.988909Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit deferred program[0m: close [3mtime.busy[0m[2m=[0m86.7ms [3mtime.idle[0m[2m=[0m2.63µs
+[2m2024-09-04T00:48:58.994070Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip CPU in 1.45µs
+[2m2024-09-04T00:48:58.994109Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Poseidon2Wide 3 in 550ns
+[2m2024-09-04T00:48:58.994143Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip MemoryGlobalChip in 340ns
+[2m2024-09-04T00:48:58.994134Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ExpReverseBitsLen in 630ns
+[2m2024-09-04T00:48:58.994140Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip FriFold in 311ns
+[2m2024-09-04T00:48:59.010573Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip RangeCheck in 16.480575ms
+[2m2024-09-04T00:48:59.226744Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Program in 232.686722ms
+[2m2024-09-04T00:49:01.325992Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m996ms [3mtime.idle[0m[2m=[0m5.48µs [2m[3mdimensions[0m[2m=[0m"[36x4194304, 2x131072]"[0m
+[2m2024-09-04T00:49:01.326067Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m1.94s [3mtime.idle[0m[2m=[0m12.1µs
+[2m2024-09-04T00:49:01.326083Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m238ms [3mtime.idle[0m[2m=[0m2.10s
+[2m2024-09-04T00:49:01.326090Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m2.34s [3mtime.idle[0m[2m=[0m1.48µs
+[2m2024-09-04T00:49:01.326101Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit recursion keys[0m: close [3mtime.busy[0m[2m=[0m2.34s [3mtime.idle[0m[2m=[0m6.85µs
+[2m2024-09-04T00:49:01.326173Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip CPU in 490ns
+[2m2024-09-04T00:49:01.326197Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip MemoryGlobalChip in 790ns
+[2m2024-09-04T00:49:01.326209Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Poseidon2Wide 3 in 590ns
+[2m2024-09-04T00:49:01.326229Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip FriFold in 60ns
+[2m2024-09-04T00:49:01.326250Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ExpReverseBitsLen in 660ns
+[2m2024-09-04T00:49:01.343099Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip RangeCheck in 16.870963ms
+[2m2024-09-04T00:49:01.345534Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Program in 19.375658ms
+[2m2024-09-04T00:49:01.520632Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m83.3ms [3mtime.idle[0m[2m=[0m3.39µs [2m[3mdimensions[0m[2m=[0m"[36x262144, 2x131072]"[0m
+[2m2024-09-04T00:49:01.520670Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m149ms [3mtime.idle[0m[2m=[0m1.79µs
+[2m2024-09-04T00:49:01.520698Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m19.5ms [3mtime.idle[0m[2m=[0m175ms
+[2m2024-09-04T00:49:01.520704Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m195ms [3mtime.idle[0m[2m=[0m7.44µs
+[2m2024-09-04T00:49:01.520710Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m:[1minit deferred keys[0m: close [3mtime.busy[0m[2m=[0m195ms [3mtime.idle[0m[2m=[0m1.76µs
+[2m2024-09-04T00:49:01.546248Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: verifying constraints for chip: Program
+[2m2024-09-04T00:49:01.547967Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: verifying constraints for chip: CPU
+[2m2024-09-04T00:49:01.557848Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-09-04T00:49:01.559571Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-09-04T00:49:01.597248Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: verifying constraints for chip: FriFold
+[2m2024-09-04T00:49:01.604868Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: verifying constraints for chip: RangeCheck
+[2m2024-09-04T00:49:01.605690Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: verifying constraints for chip: ExpReverseBitsLen
+[2m2024-09-04T00:49:01.654762Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: recursion program size: 93471
+[2m2024-09-04T00:49:01.670471Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit compress program[0m: close [3mtime.busy[0m[2m=[0m2.68s [3mtime.idle[0m[2m=[0m2.70µs
+[2m2024-09-04T00:49:01.670677Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Poseidon2Wide 3 in 630ns
+[2m2024-09-04T00:49:01.670709Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip FriFold in 410ns
+[2m2024-09-04T00:49:01.670757Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip CPU in 730ns
+[2m2024-09-04T00:49:01.670826Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip MemoryGlobalChip in 970ns
+[2m2024-09-04T00:49:01.670861Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ExpReverseBitsLen in 570ns
+[2m2024-09-04T00:49:01.688119Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip RangeCheck in 17.279812ms
+[2m2024-09-04T00:49:01.688538Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Program in 17.928997ms
+[2m2024-09-04T00:49:01.823806Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m72.3ms [3mtime.idle[0m[2m=[0m3.86µs [2m[3mdimensions[0m[2m=[0m"[36x262144, 2x131072]"[0m
+[2m2024-09-04T00:49:01.823831Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m133ms [3mtime.idle[0m[2m=[0m1.75µs
+[2m2024-09-04T00:49:01.823842Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m18.1ms [3mtime.idle[0m[2m=[0m135ms
+[2m2024-09-04T00:49:01.823847Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m153ms [3mtime.idle[0m[2m=[0m840ns
+[2m2024-09-04T00:49:01.823851Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m:[1minit compress keys[0m: close [3mtime.busy[0m[2m=[0m153ms [3mtime.idle[0m[2m=[0m640ns
+[2m2024-09-04T00:49:01.842296Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: verifying constraints for chip: Program
+[2m2024-09-04T00:49:01.843707Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: verifying constraints for chip: CPU
+[2m2024-09-04T00:49:01.852473Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-09-04T00:49:01.854175Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-09-04T00:49:01.887743Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: verifying constraints for chip: FriFold
+[2m2024-09-04T00:49:01.895350Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: verifying constraints for chip: RangeCheck
+[2m2024-09-04T00:49:01.896182Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: verifying constraints for chip: ExpReverseBitsLen
+[2m2024-09-04T00:49:01.906479Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: recursion program size: 68947
+[2m2024-09-04T00:49:01.911419Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit shrink program[0m: close [3mtime.busy[0m[2m=[0m241ms [3mtime.idle[0m[2m=[0m2.42µs
+[2m2024-09-04T00:49:01.911563Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Multi in 271ns
+[2m2024-09-04T00:49:01.911597Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ExpReverseBitsLen in 50ns
+[2m2024-09-04T00:49:01.911625Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip CPU in 620ns
+[2m2024-09-04T00:49:01.911642Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip MemoryGlobalChip in 280ns
+[2m2024-09-04T00:49:01.926288Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Program in 14.767095ms
+[2m2024-09-04T00:49:01.928468Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip RangeCheck in 16.874613ms
+[2m2024-09-04T00:49:02.350382Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m285ms [3mtime.idle[0m[2m=[0m4.22µs [2m[3mdimensions[0m[2m=[0m"[36x1048576, 2x524288]"[0m
+[2m2024-09-04T00:49:02.350414Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m418ms [3mtime.idle[0m[2m=[0m2.01µs
+[2m2024-09-04T00:49:02.350422Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m17.2ms [3mtime.idle[0m[2m=[0m422ms
+[2m2024-09-04T00:49:02.350426Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m439ms [3mtime.idle[0m[2m=[0m670ns
+[2m2024-09-04T00:49:02.350433Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m:[1minit shrink keys[0m: close [3mtime.busy[0m[2m=[0m439ms [3mtime.idle[0m[2m=[0m960ns
+[2m2024-09-04T00:49:02.368969Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: verifying constraints for chip: Program
+[2m2024-09-04T00:49:02.370459Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: verifying constraints for chip: CPU
+[2m2024-09-04T00:49:02.383294Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-09-04T00:49:02.385048Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: verifying constraints for chip: Multi
+[2m2024-09-04T00:49:02.423816Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: verifying constraints for chip: RangeCheck
+[2m2024-09-04T00:49:02.424666Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: verifying constraints for chip: ExpReverseBitsLen
+[2m2024-09-04T00:49:02.439035Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: recursion program size: 69752
+[2m2024-09-04T00:49:02.444846Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minit wrap program[0m: close [3mtime.busy[0m[2m=[0m533ms [3mtime.idle[0m[2m=[0m2.56µs
+[2m2024-09-04T00:49:02.444867Z[0m [34mDEBUG[0m [1minitialize prover[0m: close [3mtime.busy[0m[2m=[0m7.23s [3mtime.idle[0m[2m=[0m4.38µs
+[2m2024-09-04T00:49:02.454833Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Secp256k1DoubleAssign in 491ns
+[2m2024-09-04T00:49:02.454836Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bn254Fp2MulAssign in 470ns
+[2m2024-09-04T00:49:02.454861Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip DivRem in 1.02µs
+[2m2024-09-04T00:49:02.454878Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip KeccakPermute in 340ns
+[2m2024-09-04T00:49:02.454874Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip CPU in 880ns
+[2m2024-09-04T00:49:02.454890Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ShaExtend in 551ns
+[2m2024-09-04T00:49:02.454966Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ShaCompress in 490ns
+[2m2024-09-04T00:49:02.454977Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Secp256k1Decompress in 70ns
+[2m2024-09-04T00:49:02.454954Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip EdAddAssign in 1.361µs
+[2m2024-09-04T00:49:02.454993Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Secp256k1AddAssign in 110ns
+[2m2024-09-04T00:49:02.455086Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip EdDecompress in 360ns
+[2m2024-09-04T00:49:02.455084Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bls12381Decompress in 510ns
+[2m2024-09-04T00:49:02.455150Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bls12381AddAssign in 330ns
+[2m2024-09-04T00:49:02.455163Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bn254AddAssign in 310ns
+[2m2024-09-04T00:49:02.455149Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bitwise in 380ns
+[2m2024-09-04T00:49:02.455178Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Uint256MulMod in 310ns
+[2m2024-09-04T00:49:02.455185Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bls12381FpOpAssign in 60ns
+[2m2024-09-04T00:49:02.455155Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Mul in 160ns
+[2m2024-09-04T00:49:02.455202Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bls12831Fp2AddSubAssign in 269ns
+[2m2024-09-04T00:49:02.455208Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bls12381DoubleAssign in 110ns
+[2m2024-09-04T00:49:02.455225Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Lt in 120ns
+[2m2024-09-04T00:49:02.455222Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bn254DoubleAssign in 310ns
+[2m2024-09-04T00:49:02.455227Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bn254FpOpAssign in 200ns
+[2m2024-09-04T00:49:02.455247Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bn254Fp2AddSubAssign in 300ns
+[2m2024-09-04T00:49:02.455288Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip MemoryInit in 80ns
+[2m2024-09-04T00:49:02.455326Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ShiftRight in 100ns
+[2m2024-09-04T00:49:02.455292Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Bls12831Fp2MulAssign in 80ns
+[2m2024-09-04T00:49:02.455341Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip MemoryFinalize in 310ns
+[2m2024-09-04T00:49:02.455344Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip ShiftLeft in 310ns
+[2m2024-09-04T00:49:02.455356Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip AddSub in 180ns
+[2m2024-09-04T00:49:02.465775Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip MemoryProgram in 10.41523ms
+[2m2024-09-04T00:49:02.467956Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Byte in 12.579081ms
+[2m2024-09-04T00:49:02.470515Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: generated preprocessed trace for chip Program in 15.68298ms
+[2m2024-09-04T00:49:02.725050Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m124ms [3mtime.idle[0m[2m=[0m2.28µs [2m[3mdimensions[0m[2m=[0m"[6x524288, 37x262144, 11x131072]"[0m
+[2m2024-09-04T00:49:02.725080Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m241ms [3mtime.idle[0m[2m=[0m1.98µs
+[2m2024-09-04T00:49:02.725091Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m16.0ms [3mtime.idle[0m[2m=[0m254ms
+[2m2024-09-04T00:49:02.725097Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m270ms [3mtime.idle[0m[2m=[0m1.10µs
+[2m2024-09-04T00:49:02.726392Z[0m [34mDEBUG[0m [1msetup[0m: close [3mtime.busy[0m[2m=[0m281ms [3mtime.idle[0m[2m=[0m1.75µs
+[2m2024-09-04T00:49:02.739110Z[0m [32m INFO[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m40.3µs [3mtime.idle[0m[2m=[0m16.0µs
+[2m2024-09-04T00:49:02.739170Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mexecute[0m: loading memory image
+[2m2024-09-04T00:49:02.747233Z[0m [32m INFO[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mexecute[0m: clk = 0 pc = 0x2015c8    
+stdout: Entering from_slice function
+stdout: Input slice length: 31
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 781105300710200094669995165682929562
+stdout: n[0] = 192639820489926108422138290969173843622
+stdout: Returning U256
+stdout: commitment_values_digest bytes: [15, 28, 183, 222, 207, 49, 228, 156, 121, 52, 195, 116, 11, 236, 93, 243, 234, 210, 123, 201, 71, 175, 115, 151, 130, 147, 13, 246, 227, 126, 157, 144]
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 20087533582545973673690024229116599795
+stdout: n[0] = 312132244037390086166837082673890893200
+stdout: Returning U256
+stdout: [READ] commited_values_digest: Fr(Fr(U256([312132244037390086166837082673890893200, 20087533582545973673690024229116599795])))
+[2m2024-09-04T00:49:02.757317Z[0m [32m INFO[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mexecute[0m: ┌╴setup    
+stdout: Loading PLONK proof from bytes...
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 4185389871568463112377357257946915596
+stdout: n[0] = 228196568374801405633642429902970087228
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 962919921518863941023409472774284435
+stdout: n[0] = 279217440270151925723182685791020562803
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 36867485663807277350946256944760663648
+stdout: n[0] = 260408992827933738842957576277777329116
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 25704350970667319635227466998828804685
+stdout: n[0] = 270152794628717510452582460341886033268
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 57504927752580685789491355003462856120
+stdout: n[0] = 122922322163450126754011901858921432800
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 13450593341955443776039022332793951282
+stdout: n[0] = 145867487253452638059332414829684318649
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 2408511609688977484160722370973811939
+stdout: n[0] = 121278882606959187291615177746296529006
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 40938963357588248407242211408423612441
+stdout: n[0] = 120969179039441363503996275599482293649
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 14184413995982388928652861471351007211
+stdout: n[0] = 206770737609775496978457434314353705687
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 54490500534990615917263390756789185071
+stdout: n[0] = 300223226005534985522295758719132836844
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 23586958322089182571871093698843896578
+stdout: n[0] = 193636333125140599276499517287418246872
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 11608824912847823026696255568616648390
+stdout: n[0] = 66496750909893463708489510711769231291
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 5251596745183826840113604077125327647
+stdout: n[0] = 113804039754850847868387607217102344902
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 741099389524797162301771511139377417
+stdout: n[0] = 8508180364517953196313804146185266742
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 14915054922263620294843488712844844304
+stdout: n[0] = 225122005537867362291845478117465891300
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 9712514233907874938466875046698470307
+stdout: n[0] = 133332621345803585647434084129625722442
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 5166246415544119028885339036503341289
+stdout: n[0] = 313587334315895083386364838622934670467
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 22542322186389151594615495561335149434
+stdout: n[0] = 302685337324243809798673078799369820263
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 27084018786419454553231110029220593782
+stdout: n[0] = 60210480627224800617483775661925214878
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 51570155500991367107494986314864240535
+stdout: n[0] = 238942735829764625283784463011135630674
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 40707756276681407983212830524368793380
+stdout: n[0] = 328842439812052949179581814687319796359
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 50130583669371038666733217086395929457
+stdout: n[0] = 274249895190417870763721671819202658481
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 7231281395453594556376621074966339712
+stdout: n[0] = 36684478819613031706366178235316520733
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 63305195637694342902220968952706582170
+stdout: n[0] = 11940504556992364288314378795171843955
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 15540270856486670495473428315653305435
+stdout: n[0] = 134954606289323835573452934506733143210
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 851380115948259524047591571389119844
+stdout: n[0] = 255344707911200346116950090084283569163
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 196880072421352335517648274331326396
+stdout: n[0] = 212968809466889450945422521301291728936
+stdout: Returning U256
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 26244321075543512205619499714992744562
+stdout: n[0] = 132173188028571075315843070597149844393
+stdout: Returning U256
+stdout: PLONK proof loaded successfully
+stdout: Loading PLONK verifying key from bytes...
+stdout: Starting load_plonk_verifying_key_from_bytes
+stdout: Extracted size: 33554432
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 64323762696185606849549547416152079644
+stdout: n[0] = 137615210178234059541857667868946413065
+stdout: Returning U256
+stdout: Extracted size_inv: Fr(Fr(U256([137615210178234059541857667868946413065, 64323762696185606849549547416152079644])))
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 56426286820907692358412328336295660756
+stdout: n[0] = 163696068191431892540032300051452146458
+stdout: Returning U256
+stdout: Extracted generator: Fr(Fr(U256([163696068191431892540032300051452146458, 56426286820907692358412328336295660756])))
+stdout: Extracted nb_public_variables: 2
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 0
+stdout: n[0] = 5
+stdout: Returning U256
+stdout: Extracted coset_shift: Fr(Fr(U256([5, 0])))
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 4970098635751034751436455553568292327
+stdout: n[0] = 314625847271108163544351474942901251102
+stdout: Returning U256
+stdout: Extracted s0: AffineG1(AffineG { x: Fq(U256([314625847271108163544351474942901251102, 4970098635751034751436455553568292327])), y: Fq(U256([143685822580745986856277237987224238499, 43115055027864636503014788842509715953])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 24946887187974999874969876157870744255
+stdout: n[0] = 223432603358533144046766162791919270267
+stdout: Returning U256
+stdout: Extracted s1: AffineG1(AffineG { x: Fq(U256([223432603358533144046766162791919270267, 24946887187974999874969876157870744255])), y: Fq(U256([43078031179941246348680933557248537279, 62110470644250935431534904688889260667])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 20421226182302693042782207471628181920
+stdout: n[0] = 220901388828590651650353998612101146759
+stdout: Returning U256
+stdout: Extracted s2: AffineG1(AffineG { x: Fq(U256([220901388828590651650353998612101146759, 20421226182302693042782207471628181920])), y: Fq(U256([294553664126974065529355450101254240448, 6371248925932404250054354772631513998])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 61099311113076591505490075733496578464
+stdout: n[0] = 220303666726419592349733884844700421391
+stdout: Returning U256
+stdout: Extracted ql: AffineG1(AffineG { x: Fq(U256([220303666726419592349733884844700421391, 61099311113076591505490075733496578464])), y: Fq(U256([99974024475657939967119556289554310006, 15358015058440789955771019267776087513])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 52029815600258210635294597532844238368
+stdout: n[0] = 207797986484863163237558480269406966145
+stdout: Returning U256
+stdout: Extracted qr: AffineG1(AffineG { x: Fq(U256([207797986484863163237558480269406966145, 52029815600258210635294597532844238368])), y: Fq(U256([338354761370651319975714600235596529756, 33812350315019120262400101317234163191])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 25368271548515392010184261002239523585
+stdout: n[0] = 5289114226840239912236863682394046051
+stdout: Returning U256
+stdout: Extracted qm: AffineG1(AffineG { x: Fq(U256([5289114226840239912236863682394046051, 25368271548515392010184261002239523585])), y: Fq(U256([254208304928150157230313777157739026308, 54117009979970016267007197601105678491])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 23768404935771900272086799599862603676
+stdout: n[0] = 171057117228401538519021195234265412209
+stdout: Returning U256
+stdout: Extracted qo: AffineG1(AffineG { x: Fq(U256([171057117228401538519021195234265412209, 23768404935771900272086799599862603676])), y: Fq(U256([86716061747613417597164772310691410064, 14044486043413375766354503048023084286])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 30296908888320698310528145062632049864
+stdout: n[0] = 13341729229269909941329831031123001484
+stdout: Returning U256
+stdout: Extracted qk: AffineG1(AffineG { x: Fq(U256([13341729229269909941329831031123001484, 30296908888320698310528145062632049864])), y: Fq(U256([237000455660948806607378501309998121005, 7617947835279921807752986839407508113])) })
+stdout: Extracted num_qcp: 1
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 44359127496277571239858185493841873036
+stdout: n[0] = 100692657091350757245166465582224814432
+stdout: Returning U256
+stdout: Extracted qcp[0]: AffineG1(AffineG { x: Fq(U256([100692657091350757245166465582224814432, 44359127496277571239858185493841873036])), y: Fq(U256([4550340402662706889505008889667902744, 8983035024216675527875552408988117580])) })
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 42061469914793906523020680272878587819
+stdout: n[0] = 203888743826374975165201288507685449787
+stdout: Returning U256
+stdout: Extracted g1: AffineG1(AffineG { x: Fq(U256([203888743826374975165201288507685449787, 42061469914793906523020680272878587819])), y: Fq(U256([128868348313214807662591166857203005217, 34568659441864111738346090749793129233])) })
+stdout: Entering gnark_compressed_x_to_g2_point function
+stdout: Checking buffer length
+stdout: Converting gnark compressed x to ark compressed x
+stdout: Deserializing compressed bytes to AffineG2
+[2m2024-09-04T00:49:26.327390Z[0m [32m INFO[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mexecute[0m: clk = 10000000 pc = 0x20e9a8    
+stdout: AffineG2 point: AffineG2(AffineG { x: Fq2 { c0: Fq(U256([137259073930222615551684094724674877165, 31905993534909183259390360115767690361])), c1: Fq(U256([321228122123261106059779968529748660930, 33970999254487337296367544696982691109])) }, y: Fq2 { c0: Fq(U256([302824638645981006498739523792345398698, 24966482982931995192542807552294600847])), c1: Fq(U256([250285283385540557223862098795094513499, 11997000940139619428152682118654997397])) } })
+stdout: Returning AffineG2 point
+stdout: Extracted g2_0: AffineG2(AffineG { x: Fq2 { c0: Fq(U256([137259073930222615551684094724674877165, 31905993534909183259390360115767690361])), c1: Fq(U256([321228122123261106059779968529748660930, 33970999254487337296367544696982691109])) }, y: Fq2 { c0: Fq(U256([302824638645981006498739523792345398698, 24966482982931995192542807552294600847])), c1: Fq(U256([250285283385540557223862098795094513499, 11997000940139619428152682118654997397])) } })
+stdout: Entering gnark_compressed_x_to_g2_point function
+stdout: Checking buffer length
+stdout: Converting gnark compressed x to ark compressed x
+stdout: Deserializing compressed bytes to AffineG2
+[2m2024-09-04T00:49:27.786803Z[0m [32m INFO[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mexecute[0m: clk = 20000000 pc = 0x21496c    
+[2m2024-09-04T00:49:29.329738Z[0m [32m INFO[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mexecute[0m: clk = 30000000 pc = 0x213070    
+stdout: AffineG2 point: AffineG2(AffineG { x: Fq2 { c0: Fq(U256([232142841941514590929607476378977493451, 56099191276986217241781066430812406430])), c1: Fq(U256([273789568303449435001626325953723845192, 46448598790878036168659129519071323623])) }, y: Fq2 { c0: Fq(U256([248323284324163533158447750733983131827, 19923830267304574416183163349792965292])), c1: Fq(U256([101609414014751635085102832662476080120, 28739803641225460213740068780495667469])) } })
+stdout: Returning AffineG2 point
+stdout: Extracted g2_1: AffineG2(AffineG { x: Fq2 { c0: Fq(U256([232142841941514590929607476378977493451, 56099191276986217241781066430812406430])), c1: Fq(U256([273789568303449435001626325953723845192, 46448598790878036168659129519071323623])) }, y: Fq2 { c0: Fq(U256([248323284324163533158447750733983131827, 19923830267304574416183163349792965292])), c1: Fq(U256([101609414014751635085102832662476080120, 28739803641225460213740068780495667469])) } })
+stdout: Skipped 33788 bytes, new offset: 34352
+stdout: Extracted num_commitment_constraint_indexes: 1
+stdout: Extracted commitment_constraint_indexes[0]: 20988588
+stdout: Creating PlonkVerifyingKey
+stdout: PLONK verifying key loaded successfully
+stdout: Verifying PLONK proof...
+stdout: Starting verify_plonk function
+stdout: Checking public inputs length
+stdout: Initializing Transcript
+stdout: WARNING: Using insecure random number generator.
+stdout: Binding public data
+stdout: Deriving gamma randomness
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 269933706012606787188194703158520060040
+stdout: n[0] = 221728436852792591738854972754519361558
+stdout: Returning U256
+stdout: Deriving beta randomness
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 144106412293478330501499854168742413226
+stdout: n[0] = 190959144633936801931362123991205123371
+stdout: Returning U256
+stdout: Preparing alpha dependencies
+stdout: Deriving alpha randomness
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 298869904919546599409390376800401537648
+stdout: n[0] = 294025344637913276216413091853335571227
+stdout: Returning U256
+stdout: Deriving zeta randomness
+stdout: Entering from_slice function
+stdout: Input slice length: 32
+stdout: Copying input slice to padded array
+stdout: Creating U256 from padded array
+stdout: n[1] = 30541557732246590446549772633143438620
+stdout: n[0] = 131636881098692897569317424478585346579
+stdout: Returning U256
+stdout: Initializing constants
+stdout: Initializing pi and accw
+stdout: Calculating dens
+stdout: Batch inverting dens
+stdout: Calculating pi
+stdout: Initializing hash_to_field
+stdout: Processing commitment constraints
+stdout: Processing constraint 0
+stdout: Entering from_slice function
+stdout: Input slice length: 48
+stdout: Error: Input slice too long
+stdout: Error during PLONK verification: Invalid slice length
+stderr: thread '<unnamed>' panicked at program/src/main.rs:31:9:
+stderr: Proof is invalid
+stderr: stack backtrace:
+stderr: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[2m2024-09-04T00:49:29.670311Z[0m [32m INFO[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m26.9s [3mtime.idle[0m[2m=[0m1.90µs
+[2m2024-09-04T00:49:29.670335Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcheckpoint generator[0m:[1mbatch[0m: close [3mtime.busy[0m[2m=[0m26.9s [3mtime.idle[0m[2m=[0m970ns
+[2m2024-09-04T00:49:29.680126Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcheckpoint generator[0m: close [3mtime.busy[0m[2m=[0m26.9s [3mtime.idle[0m[2m=[0m19.0µs
+[2m2024-09-04T00:49:29.680308Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mphase 1 trace generation[0m: close [3mtime.busy[0m[2m=[0m26.9s [3mtime.idle[0m[2m=[0m7.79µs
+[2m2024-09-04T00:49:29.684068Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mphase 1 prover[0m: close [3mtime.busy[0m[2m=[0m26.9s [3mtime.idle[0m[2m=[0m3.91µs
+[2m2024-09-04T00:49:29.745751Z[0m [32m INFO[0m [1mprove_core[0m: close [3mtime.busy[0m[2m=[0m27.0s [3mtime.idle[0m[2m=[0m16.2ms

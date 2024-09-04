@@ -37,6 +37,7 @@ fn main() {
     let proof = SP1ProofWithPublicValues::load("proof.bin").unwrap();
     let raw_proof = hex::decode(proof.clone().proof.try_as_plonk().unwrap().raw_proof).unwrap();
     let public_inputs = proof.proof.try_as_plonk().unwrap().public_inputs.clone();
+    println!("public_inputs: {:?}", public_inputs);
     let vkey_hash = BigUint::from_str_radix(&public_inputs[0], 10)
         .unwrap()
         .to_bytes_be();
@@ -48,6 +49,8 @@ fn main() {
     let committed_values_digest = BigUint::from_str_radix(&public_inputs[1], 10)
         .unwrap()
         .to_bytes_be();
+
+    println!("committed_values_digest: {:?}", committed_values_digest);
 
     let mut stdin = SP1Stdin::new();
     stdin.write(&raw_proof);
