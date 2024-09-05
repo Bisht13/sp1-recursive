@@ -13,22 +13,15 @@ pub fn main() {
     let proof = proof;
     let vk = vk;
     let vkey_hash = Fr::from_slice(&vkey_hash).expect("Unable to read vkey_hash");
-    println!(
-        "commitment_values_digest bytes: {:?}",
-        &committed_values_digest_bytes
-    );
     let committed_values_digest = Fr::from_slice(&committed_values_digest_bytes)
         .expect("Unable to read committed_values_digest");
-    println!(
-        "[READ] commited_values_digest: {:?}",
-        committed_values_digest
-    );
 
     println!("cycle-tracker-start: setup");
     if PlonkVerifier::verify(&proof, &vk, &[vkey_hash, committed_values_digest]) {
         println!("Proof is valid");
     } else {
-        panic!("Proof is invalid");
+        println!("Proof is invalid");
+        panic!();
     }
     println!("cycle-tracker-end: setup");
 }
