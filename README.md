@@ -42,7 +42,7 @@ To verify the generated proof, execute the following steps:
 3. Run the verification script:
     ```bash
     cd ../script
-    RUST_LOG=info cargo run --release -- --prove
+    RUST_LOG=debug cargo run --release -- --prove | tee -a boom.log
     ```
 
 Follow these instructions carefully to ensure successful proof generation and verification within the SP1 Plonk proof system.
