@@ -18,10 +18,11 @@ pub fn main() {
 
     println!("cycle-tracker-start: setup");
     if PlonkVerifier::verify(&proof, &vk, &[vkey_hash, committed_values_digest]) {
+        println!("cycle-tracker-end: setup");
         println!("Proof is valid");
     } else {
+        println!("cycle-tracker-end: setup");
         println!("Proof is invalid");
         panic!();
     }
-    println!("cycle-tracker-end: setup");
 }

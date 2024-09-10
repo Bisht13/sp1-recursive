@@ -2115,12 +2115,22 @@ dependencies = [
  "ark-groth16",
  "ark-serialize 0.4.2",
  "ark-snark",
+ "groth16-verifier",
  "lazy_static",
  "num-bigint 0.4.6",
  "num-traits",
  "rand",
  "sha2",
- "substrate-bn",
+ "substrate-bn 0.6.0 (git+https://github.com/sp1-patches/bn?branch=bhargav/gnark-bn254-verifier)",
+]
+
+[[package]]
+name = "groth16-verifier"
+version = "0.1.0"
+source = "git+https://github.com/0xWOLAND/groth16-verifier#17018b9f4b9e8d94373c8cb0431d6168e2811527"
+dependencies = [
+ "substrate-bn 0.6.0 (git+https://github.com/sp1-patches/bn?branch=bhargav/gnark-bn254-verifier)",
+ "thiserror",
 ]
 
 [[package]]
@@ -3992,7 +4002,7 @@ dependencies = [
  "gnark-bn254-verifier",
  "num-bigint 0.4.6",
  "sp1-zkvm",
- "substrate-bn",
+ "substrate-bn 0.6.0",
 ]
 
 [[package]]
@@ -5419,6 +5429,22 @@ dependencies = [
 [[package]]
 name = "substrate-bn"
 version = "0.6.0"
+dependencies = [
+ "bytemuck",
+ "byteorder",
+ "cfg-if",
+ "crunchy",
+ "lazy_static",
+ "num-bigint 0.4.6",
+ "rand",
+ "rustc-hex",
+ "sp1-lib",
+]
+
+[[package]]
+name = "substrate-bn"
+version = "0.6.0"
+source = "git+https://github.com/sp1-patches/bn?branch=bhargav/gnark-bn254-verifier#e7b095e0798df21dc72877f7d465752ec1ca6fcb"
 dependencies = [
  "bytemuck",
  "byteorder",

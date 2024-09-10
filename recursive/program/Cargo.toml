@@ -5,7 +5,6 @@ edition = "2021"
 
 [dependencies]
 sp1-zkvm = "1.2.0-rc1"
-# gnark-bn254-verifier = "1.0.2"
-gnark-bn254-verifier = { path = "../../../bhargav-gnark"}
+gnark-bn254-verifier = { git = "https://github.com/0xWOLAND/gnark-bn254-verifier" }
 substrate-bn = {path = "../../../sp1-bn"}
 num-bigint = "0.4.6"
