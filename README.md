@@ -46,3 +46,16 @@ To verify the generated proof, execute the following steps:
     ```
 
 Follow these instructions carefully to ensure successful proof generation and verification within the SP1 Plonk proof system.
+
+cd fibonacci
+cd program
+cargo prove build
+
+cd ../script
+RUST_LOG=info cargo run --release -- --prove 
+cp proof.bin ../../recursive/script
+
+cd ../../recursive/program
+cargo prove build
+cd ../script
+RUST_LOG=info cargo run --release -- --prove 

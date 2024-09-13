@@ -1996,20 +1996,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "gnark-bn254-verifier"
-version = "1.0.2"
-source = "git+https://github.com/0xWOLAND/gnark-bn254-verifier?branch=bhargav/gnark-bn254-verifier#84d36cd541ce5792afd22f1f257feb7ab867d7d3"
-dependencies = [
- "lazy_static",
- "num-bigint 0.4.6",
- "num-traits",
- "rand",
- "sha2",
- "substrate-bn",
- "thiserror",
-]
-
-[[package]]
 name = "group"
 version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3845,7 +3831,7 @@ dependencies = [
 name = "recursive-program"
 version = "0.1.0"
 dependencies = [
- "gnark-bn254-verifier",
+ "snark-bn254-verifier",
  "sp1-zkvm",
  "substrate-bn",
 ]
@@ -4637,6 +4623,20 @@ name = "smallvec"
 version = "1.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
+
+[[package]]
+name = "snark-bn254-verifier"
+version = "1.0.2"
+source = "git+https://github.com/0xWOLAND/snark-bn254-verifier?branch=bhargav/gnark-bn254-verifier#cfa62b55de56daddc69db091076463fe205157fd"
+dependencies = [
+ "lazy_static",
+ "num-bigint 0.4.6",
+ "num-traits",
+ "rand",
+ "sha2",
+ "substrate-bn",
+ "thiserror",
+]
 
 [[package]]
 name = "snowbridge-amcl"

@@ -1,7 +1,7 @@
 #![no_main]
 sp1_zkvm::entrypoint!(main);
 
-use gnark_bn254_verifier::PlonkVerifier;
+use snark_bn254_verifier::PlonkVerifier;
 use substrate_bn::Fr;
 
 pub fn main() {
