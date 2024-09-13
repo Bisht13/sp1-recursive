@@ -5,8 +5,7 @@ use dotenv::dotenv;
 use num_bigint::BigUint;
 use num_traits::Num;
 use sp1_sdk::{
-    proto::network::ProofMode, utils, NetworkProver, Prover, ProverClient,
-    SP1ProofWithPublicValues, SP1Stdin,
+    install::try_install_circuit_artifacts, utils, ProverClient, SP1ProofWithPublicValues, SP1Stdin,
 };
 
 /// The ELF (executable and linkable format) file for the Succinct RISC-V zkVM.
@@ -18,20 +17,8 @@ fn main() {
     // Setup logging.
     utils::setup_logger();
 
-    let circuits_dir = dirs::home_dir()
-        .unwrap()
-        .join(".sp1")
-        .join("circuits")
-        .join("plonk_bn254");
-
-    let vk_dir_entry = std::fs::read_dir(circuits_dir)
-        .expect("Failed to read circuits directory")
-        .next()
-        .expect("No directories found in circuits directory")
-        .unwrap()
-        .path();
-
-    let vk_bin_path = vk_dir_entry.join("vk.bin");
+    let vk_dir_entry = try_install_circuit_artifacts();
+    let vk_bin_path = vk_dir_entry.join("plonk_vk.bin");
 
     let vk = std::fs::read(vk_bin_path).unwrap();
     let proof = SP1ProofWithPublicValues::load("proof.bin").unwrap();

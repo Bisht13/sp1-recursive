@@ -1,7 +1,7 @@
 #![no_main]
 sp1_zkvm::entrypoint!(main);
 
-use gnark_bn254_verifier::{PlonkVerifier, Verifier};
+use gnark_bn254_verifier::PlonkVerifier;
 use substrate_bn::Fr;
 
 pub fn main() {
@@ -17,12 +17,16 @@ pub fn main() {
         .expect("Unable to read committed_values_digest");
 
     println!("cycle-tracker-start: setup");
-    if PlonkVerifier::verify(&proof, &vk, &[vkey_hash, committed_values_digest]) {
-        println!("cycle-tracker-end: setup");
-        println!("Proof is valid");
-    } else {
-        println!("cycle-tracker-end: setup");
-        println!("Proof is invalid");
-        panic!();
+    let result = PlonkVerifier::verify(&proof, &vk, &[vkey_hash, committed_values_digest]);
+    println!("cycle-tracker-end: setup");
+
+    match result {
+        Ok(true) => {
+            println!("Proof is valid");
+        }
+        Ok(false) | Err(_) => {
+            println!("Proof is invalid");
+            panic!();
+        }
     }
 }
