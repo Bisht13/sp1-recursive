@@ -4627,7 +4627,7 @@ checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
 [[package]]
 name = "snark-bn254-verifier"
 version = "1.0.2"
-source = "git+https://github.com/0xWOLAND/snark-bn254-verifier?branch=bhargav/gnark-bn254-verifier#cfa62b55de56daddc69db091076463fe205157fd"
+source = "git+https://github.com/0xWOLAND/snark-bn254-verifier?branch=bhargav/gnark-bn254-verifier#94c2822158661845720bd91fef87ea05b1ae7dff"
 dependencies = [
  "lazy_static",
  "num-bigint 0.4.6",
