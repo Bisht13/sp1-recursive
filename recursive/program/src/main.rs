@@ -1,25 +1,32 @@
 #![no_main]
 sp1_zkvm::entrypoint!(main);
 
-use gnark_bn254_verifier::{verify, ProvingSystem, Fr};
-use num_bigint::BigUint;
+use snark_bn254_verifier::PlonkVerifier;
+use substrate_bn::Fr;
 
 pub fn main() {
     let proof = sp1_zkvm::io::read_vec()[8..].to_vec();
     let vk = sp1_zkvm::io::read_vec()[8..].to_vec();
-    let vkey_hash = Fr::from(BigUint::from_bytes_be(&sp1_zkvm::io::read_vec()[8..]));
-    let committed_values_digest = Fr::from(BigUint::from_bytes_be(&sp1_zkvm::io::read_vec()[8..]));
+    let vkey_hash = &sp1_zkvm::io::read_vec()[8..];
+    let committed_values_digest_bytes = sp1_zkvm::io::read_vec()[8..].to_vec();
+
+    let proof = proof;
+    let vk = vk;
+    let vkey_hash = Fr::from_slice(&vkey_hash).expect("Unable to read vkey_hash");
+    let committed_values_digest = Fr::from_slice(&committed_values_digest_bytes)
+        .expect("Unable to read committed_values_digest");
 
     println!("cycle-tracker-start: setup");
-    if verify(
-        &proof,
-        &vk,
-        &[vkey_hash, committed_values_digest],
-        ProvingSystem::Plonk,
-    ) {
-        println!("Proof is valid");
-    } else {
-        println!("Proof is invalid");
-    }
+    let result = PlonkVerifier::verify(&proof, &vk, &[vkey_hash, committed_values_digest]);
     println!("cycle-tracker-end: setup");
+
+    match result {
+        Ok(true) => {
+            println!("Proof is valid");
+        }
+        Ok(false) | Err(_) => {
+            println!("Proof is invalid");
+            panic!();
+        }
+    }
 }

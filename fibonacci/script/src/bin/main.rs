@@ -92,8 +92,8 @@ async fn main() {
         let proof_file = "proof.bin";
         proof.save(proof_file).unwrap();
 
-        // Verify the proof.
-        client.verify(&proof, &vk).expect("failed to verify proof");
-        println!("Successfully verified proof!");
+        // // Verify the proof.
+        // client.verify(&proof, &vk).expect("failed to verify proof");
+        // println!("Successfully verified proof!");
     }
 }

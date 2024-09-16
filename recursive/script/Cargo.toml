@@ -6,14 +6,14 @@ edition = "2021"
 [dependencies]
 dotenv = "0.15.0"
 serde_json = "1.0.121"
-sp1-sdk = { version = "1.0.1", features = ["network"] }
+sp1-sdk = { git = "https://github.com/succinctlabs/sp1", branch = "v2.0.0", features = [
+    "network",
+] }
 serde = { version = "1.0", features = ["derive"] }
-reqwest = "0.12.5"
-tokio = { version = "1.0", features = ["full"] }
 hex = "0.4.3"
 num-bigint = "0.4.6"
 num-traits = "0.2.19"
 dirs = "5.0.1"
 
 [build-dependencies]
-sp1-helper = { git = "https://github.com/succinctlabs/sp1.git", branch = "main" }
+sp1-helper = { git = "https://github.com/succinctlabs/sp1", branch = "v2.0.0" }

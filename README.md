@@ -42,7 +42,20 @@ To verify the generated proof, execute the following steps:
 3. Run the verification script:
     ```bash
     cd ../script
-    RUST_LOG=info cargo run --release -- --prove
+    RUST_LOG=info cargo run --release -- --prove 
     ```
 
 Follow these instructions carefully to ensure successful proof generation and verification within the SP1 Plonk proof system.
+
+cd fibonacci
+cd program
+cargo prove build
+
+cd ../script
+RUST_LOG=info cargo run --release -- --prove 
+cp proof.bin ../../recursive/script
+
+cd ../../recursive/program
+cargo prove build
+cd ../script
+RUST_LOG=info cargo run --release -- --prove 

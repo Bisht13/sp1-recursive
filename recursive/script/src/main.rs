@@ -5,33 +5,20 @@ use dotenv::dotenv;
 use num_bigint::BigUint;
 use num_traits::Num;
 use sp1_sdk::{
-    proto::network::ProofMode, utils, NetworkProver, Prover, SP1ProofWithPublicValues, SP1Stdin,
+    install::try_install_circuit_artifacts, utils, ProverClient, SP1ProofWithPublicValues, SP1Stdin,
 };
 
 /// The ELF (executable and linkable format) file for the Succinct RISC-V zkVM.
 pub const ELF: &[u8] = include_bytes!("../../elf/riscv32im-succinct-zkvm-elf");
 
-#[tokio::main]
-async fn main() {
+fn main() {
     dotenv().ok();
 
     // Setup logging.
     utils::setup_logger();
 
-    let circuits_dir = dirs::home_dir()
-        .unwrap()
-        .join(".sp1")
-        .join("circuits")
-        .join("plonk_bn254");
-
-    let vk_dir_entry = std::fs::read_dir(circuits_dir)
-        .expect("Failed to read circuits directory")
-        .next()
-        .expect("No directories found in circuits directory")
-        .unwrap()
-        .path();
-
-    let vk_bin_path = vk_dir_entry.join("vk.bin");
+    let vk_dir_entry = try_install_circuit_artifacts();
+    let vk_bin_path = vk_dir_entry.join("plonk_vk.bin");
 
     let vk = std::fs::read(vk_bin_path).unwrap();
     let proof = SP1ProofWithPublicValues::load("proof.bin").unwrap();
@@ -51,14 +38,17 @@ async fn main() {
     stdin.write(&committed_values_digest);
 
     // Generate the proof for the given program and input.
-    let client = NetworkProver::new_from_key(&std::env::var("SP1_PRIVATE_KEY").unwrap());
-    let (_, vk) = client.setup(ELF);
-    let proof = client
-        .prove(ELF, stdin, ProofMode::Core, None)
-        .await
-        .unwrap();
+    // let client = NetworkProver::new_from_key(&std::env::var("SP1_PRIVATE_KEY").unwrap());
+    // let (_, vk) = client.setup(ELF);
+    // let proof = client
+    //     .prove(ELF, stdin, ProofMode::Core, None)
+    //     .unwrap();
 
-    // Verify proof and public values
+    let client = ProverClient::new();
+    let (pk, vk) = client.setup(ELF);
+    let proof = client.prove(&pk, stdin).run().expect("proving failed");
+
+    // Verify proof.
     client.verify(&proof, &vk).expect("verification failed");
 
     println!("Successfully verified proof for the program!")
